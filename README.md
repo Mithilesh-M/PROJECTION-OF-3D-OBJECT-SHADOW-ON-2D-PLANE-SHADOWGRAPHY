@@ -12,6 +12,9 @@ We use projective shadows technique to project shadows. This technique works by 
 METHODOLOGY AND MATHEMATICS:
 Projective shadow projection works by using single point perspective projection technique to project shadow on XY plane that is Z=0. Consider light as a COP and light rays as projectors. Consider ZC  as centre of light with respect to Z axis.  
 
+![SHA1](https://user-images.githubusercontent.com/69910465/90669387-36641f80-e26f-11ea-8ce9-029b1f119a31.png)
+![SHA2](https://user-images.githubusercontent.com/69910465/90669396-382de300-e26f-11ea-940d-5fb5aa5f1cb6.png)
+
 Here we get Final value as 
 (x/(rz+1), y/(rz+1), 0, 1) as shown in figure.
 Now substitute the light and each coordinates of polygon. After Substitution, plot all the new coordinates. We can able to see the shadow of the 3D object on XY Plane. 
